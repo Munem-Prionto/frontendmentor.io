@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --bright-orange : #e38826;
+    --dark-cyan: #006970;
+    --very-dark-cyan: #004241;
+}
+body {
+    font-size: 14px;
+    background-color:  rgba(240, 240, 240, 0.75);
+}
+.container {
+
+    display: grid;
+    width: 65%;
+    height: 95vh;
+    margin: auto auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+
+}
+
+.card {
+
+    padding:  2rem;
+}
+.card .title {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1rem 0rem;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.8rem;
+}
+.card p {
+    color: #ffffffad;
+    padding: .5rem 0rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card button {
+
+    margin-top: 3rem;
+
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    background: #ffffff;
+    box-shadow: 0px 0px 0px transparent;
+    border: 2px solid #ffffff;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  .card button:hover {
+    margin-top: 3rem;
+
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+
+    cursor: pointer;
+
+    color : #ffffff;
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 2px solid #ffffff;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  .card button:active {
+    outline: none;
+    border: none;
+  }
+  
+  .card button:focus {
+    outline: 0;
+  }
+
+.card_1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--bright-orange);
+}
+.card_1 button {color: var(--bright-orange);}
+
+
+.card_2 {background-color: var(--dark-cyan);}
+.card_2 button {color: var(--dark-cyan);}
+
+.card_3 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--very-dark-cyan);
+}
+.card_3 button {color: var(--very-dark-cyan);}
+
+
+
+
+
+.attribution {
+    text-align: center;
+}
+
+
+@media only Screen and (max-width:950px) {
+    .container {
+
+        display: grid;
+        width: 90%;
+        height: 95vh;
+        margin: auto auto;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    
+    }
+}
+
+
+@media only Screen and (max-width:690px) {
+    .container {
+
+        display: grid;
+        width: 92%;
+        height:auto;
+        margin: 2rem auto;
+        justify-content: center;
+        align-content: flex-start;
+        grid-template-columns: 1fr;
+    
+    
+    
+    }
+
+    .card_1 {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+   
+    }
+
+    
+    .card_3 {
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+  
+    }
+
+
+    .attribution {
+        margin: 1rem 0rem;
+        text-align: center;
+    }
+    
+}
+
+
