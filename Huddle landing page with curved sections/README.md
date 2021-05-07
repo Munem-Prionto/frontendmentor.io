@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github.com/Munem-Prionto/huddle-landing-page](https://github.com/Munem-Prionto/huddle-landing-page)
-- Live Site URL: [huddle-landing-page-mp.netlify.app/](https://huddle-landing-page-mp.netlify.app/)
+- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/Huddle%20landing%20page%20with%20curved%20sections)
+- [Live](https://huddle-landing-page-mp.netlify.app/)
 
 
 ### Built with
