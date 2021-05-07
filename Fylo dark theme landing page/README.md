@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github.com/Munem-Prionto/frontendmentor.io/tree/main/Fylo%20dark%20theme%20landing%20page](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/Fylo%20dark%20theme%20landing%20page)
+- Solution(https://github.com/Munem-Prionto/frontendmentor.io/tree/main/Fylo%20dark%20theme%20landing%20page)
 - Live Site URL: [fylo-dark-landing-page-mp.netlify.app/](https://fylo-dark-landing-page-mp.netlify.app/)
 
 
