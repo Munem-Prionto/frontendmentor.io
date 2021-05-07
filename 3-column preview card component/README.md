@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/3-column%20preview%20card%20component)
+- [Live](https://3-column-preview-card-component-mp.netlify.app/)
 
 ## My process
 
