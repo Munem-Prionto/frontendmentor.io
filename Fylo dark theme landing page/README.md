@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./ss.png)
+![](./ss.PNG)
 
 
 ### Links
 
-- Solution URL: [github.com/Munem-Prionto/huddle-landing-page](https://github.com/Munem-Prionto/huddle-landing-page)
-- Live Site URL: [huddle-landing-page-mp.netlify.app/](https://huddle-landing-page-mp.netlify.app/)
+- Solution URL: [github.com/Munem-Prionto/frontendmentor.io/tree/main/Fylo%20dark%20theme%20landing%20page](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/Fylo%20dark%20theme%20landing%20page)
+- Live Site URL: [fylo-dark-landing-page-mp.netlify.app/](https://fylo-dark-landing-page-mp.netlify.app/)
 
 
 ### Built with
