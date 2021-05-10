@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    font-size: 16px;
+
+    --very-dark-blue : hsl(233, 47%, 7%); /* main backgroud */
+    --dark-desaturated-blue :  hsl(244, 38%, 16%); /* card background */
+    --soft-violet :   hsl(277, 68%, 34%); /* accent */
+    --white : hsl(0, 0%, 100%); /* main heading , stats */
+    --slightly-transparent-white-1 : hsla(0, 0%, 100%, 0.75); /* main paragraph*/
+    --slightly-transparent-white-2 :hsla(0, 0%, 100%, 0.6); /* stat headings */
+}
+body {
+    color: var(--white);
+    font-family: Lexend Deca;
+    background-color: var(--very-dark-blue)
+    
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.desc {
+   /*  box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    background-color: var(--dark-desaturated-blue);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.desc_heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.highlight {
+    color: var(--soft-violet);
+}
+.desc_p {
+    font-size: .8rem;
+    line-height: 2rem;
+   
+    color: var(--slightly-transparent-white-1);
+    padding: 1.5rem 0rem;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+
+}
+.stat_number {
+    font-size: 1.5rem;
+}
+.stat_label {
+    font-size: .9rem;
+    text-transform: capitalize;
+}
+.img {
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--soft-violet);
+    filter: contrast(120%);
+   opacity: .8; 
+}
+
+ .img img {
+     height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: .4;
+}
+
+.attribution {
+    padding: 1rem 0rem;
+    font-size: .8rem;
+    text-align: center;
+}
+@media all and (max-width:1075px) {
+    .container {
+        width: 90%;
+    }
+}
+@media all and (max-width:1075px) {
+    :root {
+        font-size: 15px;
+    }
+}
+@media all and (max-width:800px) {
+
+    .content {
+        grid-template-columns: 1fr;
+        padding: 5rem;
+        text-align: center;
+    }
+    .img {
+        order: -1;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .img img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .desc {
+        border-radius: 0px 0px 10px 10px;
+    }
+    .stats {
+        text-align: center;
+        flex-direction: column;
+    }
+    .stat {
+        padding: 1rem 0rem;
+    }
+}
+@media all and (max-width:600px) {
+    .content {
+        padding: 1rem;
+    }
+}
