@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/stats-preview-card-component)
+- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/stats-preview-card-component)
 - [Live](https://stats-preview-card-component-mp.netlify.app/)
 
 
