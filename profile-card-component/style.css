@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* Font size (name and stats): 18px */
+:root {
+    font-size: 16px;
+
+    --dark-cyan : hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue : hsl(229, 23%, 23%);
+    --dark-grayish-blue : hsl(227, 10%, 46%);
+
+    --dark-gray :  hsl(0, 0%, 59%) 
+}
+body {
+    font-size: 1.2rem;
+    font-family: Kumbh Sans;
+    min-width: 100vw;
+    min-height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:var(--dark-cyan);
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+body::before,
+body::after {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    background-size: auto;
+    transform: translate(-50%, -50%);
+}
+
+body::before {
+    z-index: -1;
+    background: url("images/bg-pattern-top.svg") no-repeat bottom right;
+    top: 0;
+    left: 0;
+}
+
+body::after {
+    z-index: -1;
+    background: url("images/bg-pattern-bottom.svg") no-repeat top left;
+    top: 100%;
+    left: 100%;
+}
+
+
+.profile {
+    background:white;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.profile-bg-img img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.profile-img img {
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 100%;
+    transform: translateY(-50%);
+}
+.profile-info {
+    transform: translateY(-50%);
+    padding: 1rem 0rem;
+}
+
+.location {
+    padding: .5rem 0rem 0rem 0rem;
+    color: var(--dark-gray);
+}
+.age {
+    color: var(--dark-gray);
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0rem;
+    border-top: 1px solid var(--dark-gray);
+}
+.profile-stat span {
+    display: block;
+}
+
+.number {
+    font-weight: bold;
+}
+.stat-name {
+    color: var(--dark-gray);
+    padding: .3rem 0rem;
+    font-size: 1rem;
+}
+
+@media all and (max-width: 1100px) {
+    .pattern-top {
+        transform: translate(-50%,-50%);
+    }
+    .pattern-bottom {
+        top: 0;
+        left: 0;
+        transform: translate(-20%,-50%);
+    }
+}
+@media all and (max-width: 650px) {
+    .pattern-top {
+        transform: translate(-70%,-50%);
+    }
+    .pattern-bottom {
+        transform: translate(-30%,30%);
+    }
+}
+@media all and (max-width: 550px) {
+    .profile {
+        width: 250px;
+    }
+}
+
+
