@@ -36,7 +36,7 @@ Users should be able to:
 
 - HTML5
 - CSS 3
-
+- JavaScript
 
 ## Author
 
