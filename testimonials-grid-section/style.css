@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    font-size: 14px;
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--light-grayish-blue);
+    width: 100%;
+    min-height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    box-sizing: border-box;
+    padding: 3rem 1rem;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat();
+    gap: 1rem;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-areas: 
+    "p-1 p-1  p-2 p-3"
+    "p-4 p-5  p-5 p-3";
+}
+
+.profile {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.profile-1 {
+    z-index: 1;
+    position: relative;
+
+    grid-area: p-1;
+    background-color: var(--moderate-violet);
+}
+.bg-pattern img {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
+
+.profile-2 {
+    grid-area: p-2;
+    background-color: var(--very-dark-grayish-blue);
+}
+.profile-3 {
+    grid-area: p-3;
+    background-color: var(--white);
+}
+.profile-4 {
+    grid-area: p-4;
+    background-color: var(--white);
+}
+.profile-5 {
+    grid-area: p-5;
+    background-color: var(--very-dark-blackish-blue);
+}
+.profile-3 .profile-name,
+.profile-3 .testimonial-title,
+.profile-4 .profile-name,
+.profile-4 .testimonial-title{
+    color: var(--very-dark-blackish-blue);
+}
+.profile-3 .testimonial,
+.profile-4 .testimonial {
+    color: var(--very-dark-grayish-blue);
+}
+
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+.profile-img {
+    border-radius: 100%;
+    border: 2px solid var(--white);
+}
+.profile-img img{
+    border-radius: 100%;
+    width: 40px;
+}
+.profile-id {
+    padding: 0rem 1rem;
+    font-size: .9rem;
+}
+.profile-name {color: var(--white);}
+.profile-status {color: var(--light-gray);}
+
+.testimonial-title {
+    font-size: 1.3rem;
+    padding: .5rem 0rem;
+    color: var(--white);
+}
+.testimonial {
+
+    padding: .5rem 0rem;
+    color: var(--light-gray);
+
+}
+.attribution { font-size: .9rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media all and (max-width: 1050px ){
+    main {
+        width: 95%;
+    }
+    .profile {
+        padding: 1.5rem;
+    }
+}
+@media all and (max-width: 850px ){
+    main {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat();
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "p-1"
+        "p-2"
+        "p-4"
+        "p-5"
+        "p-3";
+    }
+}
