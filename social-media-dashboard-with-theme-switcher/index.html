@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | [https://social-media-dashboard-with-theme-switcher]</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header_container">
+      <div class="heading">
+        Social Media Dashboard
+      </div>
+      <div class="sub_heading">
+        <div class="followers">
+          Total Followers: 23,004
+        </div>
+        <div class="themeSwitch">
+            <span class="theme_name">Dark Mode</span>
+            <input type="checkbox" id="switch"/>
+            <label id="switchLabel"for="switch">Toggle</label>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="stats">
+      <div class="stat fb">
+        <div class="name">
+          <img src="images/icon-facebook.svg" alt="" srcset="">
+          <span class="gray">@nathanf</span>
+        </div>
+        <div class="number">1987</div>
+        <div class="label gray">Followers</div>
+        <div class="latest_number">
+          <img src="images/icon-up.svg" alt="" srcset="">
+          <span class="up">12 Today</span> 
+        </div>
+      </div>
+      <div class="stat twt">
+        <div class="name">
+          <img src="images/icon-twitter.svg" alt="" srcset="">
+          <span class="gray">@nathanf</span>
+        </div>
+        <div class="number">1044</div>
+        <div class="label gray">Followers</div>
+        <div class="latest_number">
+          <img src="images/icon-up.svg" alt="" srcset="">
+          <span class="up"> 99 Today</span> 
+        </div>
+      </div>
+      <div class="stat ig">
+        <div class="name">
+          <img src="images/icon-instagram.svg" alt="" srcset="">
+          <span class="gray">@realnathanf </span>
+        </div>
+        <div class="number">11k</div>
+        <div class="label gray">Followers</div>
+        <div class="latest_number">
+          <img src="images/icon-up.svg" alt="" srcset="">
+          <span class="up">1099 Today</span> 
+        </div>
+      </div>
+      <div class="stat yt">
+        <div class="name">
+          <img src="images/icon-youtube.svg" alt="" srcset="">
+          <span class="gray">Nathan F. </span>
+        </div>
+        <div class="number">8239</div>
+        <div class="label gray">Subscribers</div>
+        <div class="latest_number">
+          <img src="images/icon-down.svg" alt="" srcset="">
+          <span class="down">144 Today</span> 
+        </div>
+      </div>
+    </section>
+
+    <section class="overview">
+      <h2 class="overview_heading">Overview - Today</h2>
+      <div class="grid-container">
+        <div class="overview_stat fb1">
+            <div class="pg-views">
+              <span class="gray">Page views</span>
+              <img src="images/icon-facebook.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>87</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-up.svg" alt="" srcset="">
+                <span class="up">3%</span> 
+              </div>
+            </div>
+          </div>
+          <div class="overview_stat fb2">
+            <div class="pg-views">
+              <span class="gray">Likes</span>
+              <img src="images/icon-facebook.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>52</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-down.svg" alt="" srcset="">
+                <span class="down">2%</span> 
+              </div>
+            </div>
+          </div>
+          <div class="overview_stat ig1">
+            <div class="pg-views">
+              <span class="gray">Likes</span>
+              <img src="images/icon-instagram.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>5462</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-up.svg" alt="" srcset="">
+                <span class="up">2275%</span> 
+              </div>
+            </div>
+          </div>
+          <div class="overview_stat ig2">
+            <div class="pg-views">
+              <span class="gray">Profile Views</span>
+              <img src="images/icon-instagram.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>52K</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-up.svg" alt="" srcset="">
+                <span class="up">1357%</span> 
+              </div>
+            </div>
+          </div>
+          <div class="overview_stat twt1">
+            <div class="pg-views">
+              <span class="gray">Retweets</span>
+              <img src="images/icon-twitter.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>117</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-up.svg" alt="" srcset="">
+                <span class="up">303%</span> 
+              </div>
+            </div>
+          </div>
+          <div class="overview_stat twt2">
+            <div class="pg-views">
+              <span class="gray">Likes</span>
+              <img src="images/icon-twitter.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>507</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-up.svg" alt="" srcset="">
+                <span class="up">3%</span> 
+              </div>
+            </div>
+          </div>
+          <div class="overview_stat yt1">
+            <div class="pg-views">
+              <span class="gray">Likes</span>
+              <img src="images/icon-youtube.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>107</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-up.svg" alt="" srcset="">
+                <span class="up">19%</span> 
+              </div>
+            </div>
+          </div>
+          <div class="overview_stat yt2">
+            <div class="pg-views">
+              <span class="gray">Total Views</span>
+              <img src="images/icon-youtube.svg" alt="" srcset="">
+            </div>
+            <div class="overview_number">
+              <span>1407</span>
+              <div class="overview_latest_number">
+                <img src="images/icon-up.svg" alt="" srcset="">
+                <span class="up">12%</span> 
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://munemprionto.netlify.app/">Munem Prionto</a>.
+  </footer>
+</body>
+<script src="app.js"></script>
+</html>
