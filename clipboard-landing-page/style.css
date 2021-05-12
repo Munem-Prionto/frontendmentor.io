@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0px;
+}
+:root {
+    --font-size : 16px;
+
+
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+
+    --footer-gray : #f5f6f8;
+}
+body {
+    line-height: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+p {
+    color: var(--grayish-blue);
+}
+
+header {
+    padding: 7rem 0rem;
+    background-image: url("images/bg-header-desktop.png") ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    padding: 1rem 0rem;
+}
+header p {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto ;
+    padding: .2rem 0rem;
+}
+.btn {
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem 3rem;
+    margin:2rem 1rem;
+    border-radius:30px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn-ios {
+    background: var(--strong-cyan);
+}
+.btn-mac {
+    background: var(--light-blue);
+}
+.keep-track {
+
+    text-align: center;
+}
+.keep-track h2 {
+    padding: 1rem 0rem;
+}
+.keep-track p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.features {
+    display: grid;
+    padding: 5rem 0rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+/*     align-items: center; */
+}
+.features-img {
+    transform: translateX(-10%);
+}
+.features-img img{
+    width: 100%;
+}
+.features-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.clipboard {
+    padding: 5rem 0rem;
+/*     width: 0%;
+    margin: 0 auto; */
+    text-align: center;
+}
+.clipboard h2 {
+    padding: 1rem 0rem;
+}
+.clipboard p{
+    width: 50%;
+    margin: 0 auto; 
+}
+.clipboard-img img{
+    width: 60%;
+}
+.tools {
+    padding-bottom:5rem;
+    text-align: center;
+
+}
+.tools h2{
+    padding: 1rem 0rem;
+}
+.tools-desc {
+    padding: 5rem 0rem;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tools > p {
+    width: 50%;
+    margin: 0 auto;
+}
+.tools-desc > div {
+/*     border: 1px solid black; */
+    align-self: baseline;
+}
+.tools-desc > div img {
+    padding: 1rem 0rem;
+}
+
+.users {
+    width: 90%;
+    padding-bottom: 5rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.users img {
+    width: 120px;
+    height: auto;
+    display: block;
+}
+.download {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.download h2 {
+    padding: 1rem 0rem;
+}
+.download p {
+    width: 50%;
+    margin: 0 auto;
+}
+footer {
+    background: var(--footer-gray);
+    padding:3rem 0rem;
+}
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer-content a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+    display: block;
+}
+.footer-content a:hover {
+    cursor: pointer;
+    color: var(--strong-cyan);
+}
+.footer-logo img{
+    align-self: center;
+    width: 60px;
+}
+
+.single-link {
+    align-self: start;
+}
+.socials img {
+
+    filter: grayscale(100);
+    display: inline-block;
+    padding: 0rem .4rem;
+}
+
+.attribution {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: .8rem;
+}
+
+@media all and (max-width:850px) {
+    .users img {
+        width: 100px;
+    }
+
+}
+@media all and (max-width:700px) {
+    header {
+        text-align: center;
+        background-image: url("images/bg-header-mobile.png");
+    }
+    .features,
+    .tools-desc,
+    .footer-content {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .features-img {
+        transform: translateX(0%);
+    }
+    .features-img img{
+        width: 90%;
+    }
+    .clipboard-img img {
+        width: 90%;
+    }
+    .users {
+        flex-direction: column;
+        align-items: center;
+    }
+    .users img {
+        padding: 1rem 0rem;
+    }
+    .links a {
+        padding: .5rem 0rem;
+    }
+    .socials img {
+        padding: 1rem 2rem;
+    }
+
+    .keep-track p,
+    .clipboard p,
+    .tools > p,
+    .download p
+     {
+        width: 90%;margin: 0 auto;
+    }
+    
+}
+
+
