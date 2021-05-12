@@ -115,6 +115,9 @@ footer {
     text-align: center;
     font-size: .8rem;
 }
+footer a {
+    color: white;
+}
 @media all and (max-width: 1050px) {
     .container {
         grid-template-columns: 1fr 1fr;
