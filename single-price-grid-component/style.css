@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 16px;
+
+    --cyan :  #2bb3b1;
+    --light-cyan:  #4abebd;
+    --bright-yellow : hsl(71, 73%, 54%);
+
+    --light-gray :  hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+
+}
+
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    font-family: 'Karla', sans-serif;
+}
+main { 
+    box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.53);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+}
+.top {
+   
+    border-radius: 10px 10px 0px 0px;
+    background: white;
+    padding: 3rem;
+}
+.top h2 {
+    color: var(--cyan);
+}
+.top h3 {
+    padding: 1rem 0rem;
+    color: var(--bright-yellow);
+}
+.top p {
+    color: var(--grayish-blue);
+}
+.bottom {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border-radius: 0px 0px 10px 10px;
+}
+.bottom h3 {
+    padding-bottom: 1rem;
+}
+.price {
+    border-radius: 0px 0px 0px 10px;
+    padding: 3rem;
+    background: var(--cyan);
+}
+.number {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.number span:nth-child(1) {
+    font-size: 2rem;
+}
+.number span:nth-child(2) {
+    opacity: .5;
+    padding: 0rem .5rem;
+    
+}
+.label {
+    padding: 1rem 0rem;
+}
+button {
+
+    color: white;
+    border: none;
+    outline: none;
+    background:var(--bright-yellow);
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    padding: .8rem 2rem;
+    transition: all .2s; 
+}
+button:hover {
+    color: black;
+    cursor: pointer;
+    opacity: .7;
+}
+.usp {
+    border-radius: 0px 0px 10px 0px;
+    padding: 3rem;
+    background: var(--light-cyan);
+}
+.usp p {
+    opacity: .7;
+}
+footer {
+    font-size: .9rem;
+    padding: 3rem 0rem 1rem 0rem;
+}
+@media all and (max-width:1050px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media all and (max-width:650px) {
+    body {
+        padding: 2rem;
+    }
+    main {
+        width: 85%;
+    }
+    .bottom {
+        grid-template-columns: 1fr;
+    }
+    .price {
+        border-radius: 0px;
+    }
+    .usp {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+
