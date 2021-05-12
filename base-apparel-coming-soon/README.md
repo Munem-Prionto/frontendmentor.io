@@ -6,7 +6,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
