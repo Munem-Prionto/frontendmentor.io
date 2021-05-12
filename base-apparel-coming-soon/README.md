@@ -22,8 +22,8 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/testimonials-grid-section)
-- [Live](https://testimonials-grid-section-mp.netlify.app/)
+- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/base-apparel-coming-soon)
+- [Live](https://base-apparel-coming-soon-mp.netlify.app/)
 
 
 ### Built with
