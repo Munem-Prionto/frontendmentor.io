@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <main>
+      <div class="desc">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+      </div>
+      <div class="formDiv">
+        <div class="offer">
+           Try it free 7 days <span>then $20/mo. thereafter</span>
+        </div>
+        <form action="">
+            <div class="input">
+              <input type="text" placeholder="First Name" required>
+              <img src="images/icon-error.svg" class="hide">
+              <small class="hide">First Name cannot be empty</small>
+            </div>
+ 
+            <div class="input">
+              <input type="text" placeholder="Last Name" required>
+              <img src="images/icon-error.svg" class="hide">
+              <small class="hide">Last Name cannot be empty</small>
+            </div>
+
+            <div class="input">
+              <input type="email" placeholder="Email Address" required>
+              <img src="images/icon-error.svg" class="hide">
+              <small class="hide">Email Address cannot be empty</small>
+            </div>
+ 
+            <div class="input">
+              <input type="password" placeholder="Password" required>
+              <img src="images/icon-error.svg" class="hide">
+              <small class="hide">Password cannot be empty</small>
+            </div>
+
+            <div class="btnDiv">
+              <button class="btn">  Claim your free trial </button>
+            </div>
+            <div class="terms"> By clicking the button, you are agreeing to our <a href="">Terms and Services</a></div>
+          
+        </form>
+      </div>
+
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://munemprionto.netlify.app/">Munem Prionto</a>.
+      </p>
+    </footer>
+</body>
+
+<script src="app.js"></script>
+</html>
