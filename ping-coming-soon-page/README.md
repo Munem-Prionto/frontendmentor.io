@@ -28,6 +28,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 - HTML5
 - CSS 3
+- JavaScript
 
 
 ## Author
