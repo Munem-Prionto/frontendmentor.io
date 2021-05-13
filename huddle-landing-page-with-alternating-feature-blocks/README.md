@@ -21,8 +21,8 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ### Links
 
-- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/huddle-landing-page-with-alternating-feature-blocks-master)
-- [Live](https://huddle-landing-page-with-alternating-feature-blocks-master-mp.netlify.app/)
+- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/huddle-landing-page-with-alternating-feature-blocks)
+- [Live](https://huddle-landing-page-with-alternating-feature-blocks-mp.netlify.app/)
 
 
 ### Built with
