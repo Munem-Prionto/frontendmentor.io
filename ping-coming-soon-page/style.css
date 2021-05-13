@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 16px;
+
+        
+    --blue: hsl(223, 87%, 63%);
+
+
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+
+
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+
+}
+body {
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+}
+main {
+
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+}
+.logo {
+    padding: 1rem 0rem;
+}
+.heading {
+    font-size: 2rem; 
+    padding: 1rem 0rem;
+}
+.heading-1 {
+    font-weight: 400;
+    opacity: .5;
+}
+.heading-2{
+    color: black;
+    font-weight: 800;
+    opacity: 1;
+}
+small {
+    font-size: .9rem;
+}
+
+.input-div {
+    
+    width: 50%;
+    margin: 0 auto;
+
+    padding: 2rem 0rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+}
+.input-div input {
+    outline: none;
+    padding: 0rem 2rem;
+    border: 1px solid var(--gray);
+    height: 3rem;
+    border-radius: 30px;
+}
+.input-div input::placeholder {
+    opacity: .8;
+}
+.error-msg {
+    color: var(--light-red);
+    font-size: .8rem;
+    font-style: italic;
+
+}
+.hide {
+    display: none !important;
+}
+.error-border {
+    border: 1px solid var(--light-red) !important;
+}
+.btn {
+    color: white;
+    background-color: var(--blue);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+.img-div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-div img {
+    width: 100%;
+}
+.social {
+
+    padding: 2rem 0rem 1rem 0rem;
+}
+.social img{
+    display: inline-block;
+    width: 1.5rem;
+}
+.copyright {
+    font-size: .8rem;
+}
+footer {
+    font-size: .8rem;
+    padding: 1rem 0rem;
+    text-align: center;
+}
+@media all and (max-width:1000px) {
+    main {
+        width: 100%;
+    }
+    .img-div,
+    .input-div {
+        width: 80%;
+    }
+}
+@media all and (max-width:500px) {
+    main {
+        width: 100%;
+    }
+
+    .input-div {
+        grid-template-columns: 1fr;
+    }
+    .btn {
+        padding: 0rem 2rem;
+        height: 3rem;
+    }
+    .input-div{order: 1;}
+    .error-msg {order: 2;}
+    .btn{order: 3;}
+}
