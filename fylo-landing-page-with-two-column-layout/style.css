@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    font-size: 16px;
+    --width : 90%;
+
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+
+
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: #f8f8fe;
+
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: var(--width);
+    margin: 1rem auto;
+}
+nav {
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    width: 120px;
+}
+
+.links a{
+    color: var(--very-dark-blue);
+    text-decoration: none;
+    margin: 0rem 1rem;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.hero {
+    box-sizing: border-box;
+    margin:5rem auto;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+
+.hero-desc h1{
+    font-size: 2rem;
+}
+.hero-desc p{
+    opacity: .7;
+    padding: 2rem 0rem;
+}
+.hero-input {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr;
+}
+.hero-input input  {
+    border-radius: 5px;
+    padding: .8rem 2rem;
+    outline: none;
+    border: 1px solid gray ;
+
+}
+.hero-input small {
+    font-style: italic;
+    color: red;
+}
+.btn {
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: var(--bright-blue);
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+main {
+    background-color: var(--light-grayish-blue);
+    width: 100%;
+}
+.pattern {
+    width: 100%;
+    transform: translateY(10px);
+}
+.pattern img {
+    width: 100%;
+}
+.content {
+    width: var(--width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 0rem;
+    z-index: 2;
+    background-color: var(--light-grayish-blue);
+}
+.content-img {
+    width: 70%;
+    margin: 0 auto;
+    
+} 
+.content-img img {
+    align-self: center;
+    width: 100%;
+} 
+.content-desc h2{
+    padding: 1rem 0rem;
+}
+.content-desc > p{
+    padding: .5rem 0rem;
+}
+.content-desc-link {
+    display: block;
+    padding:2rem 0rem;
+    text-decoration: none;
+    color: var(--moderate-cyan);
+}
+.content-desc-link:hover {
+    text-decoration: underline;
+    color: var(--moderate-cyan);
+}
+.card {
+
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 60%;
+    background-color: white;
+}
+.card > p {
+    opacity: .7;
+    padding: .5rem 0rem;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+.name > img {
+    border-radius: 100%;
+    width: 50px;
+}
+.identity > span{
+    padding: 0rem 1rem;
+    font-size: .8rem;
+    display: block;
+}
+.identity > span:nth-child(1) {
+    font-weight: bold;
+}
+
+.get-access {
+    background-color: var(--desaturated-blue);
+}
+.get-access-content {
+    padding: 5rem 0rem;
+    box-sizing: border-box;
+    width: var(--width);
+    margin: 0 auto;
+    display: grid;
+    gap: 0rem 10rem;
+    grid-template-columns: 1fr 1fr;
+
+}
+.ga-desc {
+
+    color: white;
+}
+.ga-desc p {
+    opacity: .7;
+    padding: .5rem 0rem;
+}
+.ga-form {
+    display: grid;
+    align-self:flex-start;
+}
+.ga-form input {
+    border-radius: 5px;
+    padding: .8rem 2rem;
+    outline: none;
+    border: 1px solid gray ;
+}
+.ga-form button {
+    margin: .5rem 0rem;
+    padding: .8rem 2rem;
+    width: fit-content;
+}
+.ga-form small {
+    color: var(--light-grayish-blue);
+    padding: .2rem 0rem;
+}
+
+ion-icon {
+
+    color:white;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+
+.footer {
+    color: white;
+    padding: 5rem 0rem;
+    width: 100%;
+    background: var(--very-dark-blue);
+}
+.footer-logo {
+    width: var(--width);
+    margin: 0 auto 2rem auto;
+}
+.footer-logo img {
+    width: 120px;
+}
+.footer-content {
+  
+    width: var(--width);
+    display: grid;
+    gap: 5rem;
+    margin: 1rem auto;
+    grid-template-columns: 1.8fr  1fr 1fr 1fr;
+}
+
+
+.footer-contact > p{
+    display: flex;
+    align-items: center;
+}
+.footer-contact > p:nth-child(2) {
+    padding: .5rem 0rem;
+}
+.footer-links a {
+    padding: .5rem 0rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.footer-links a:hover {
+    color: var(--desaturated-blue);
+    cursor: pointer;
+
+    
+}
+.footer-socials a{
+    text-decoration: none;
+}
+.footer-socials ion-icon{
+    color: white;
+    border-radius: 100%;
+    border: 1px solid transparent;
+}
+.footer-socials ion-icon:hover {
+    color: white;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.credits {
+    color: white;
+    background: var(--very-dark-blue);
+    font-size: .8rem;
+    padding: 1rem 0rem;
+    text-align: center;
+}
+.credits a {
+    color: white;
+}
+
+
+/* js style class */
+.hide {
+    display: none !important;
+}
+.error-border {
+    border-color: red !important;
+}
+/* responsive */
+@media all and (max-width:950px){
+    .hero-desc h1 {
+        font-size: 1.5rem;
+    }
+    .hero-input {
+        grid-template-columns: 1fr;
+    }
+    .hero-input button {
+        padding: .8rem 2rem;
+    }
+    .hero-input input{order: 1;}
+    .hero-input small{order: 2;}
+    .hero-input button{order: 3;}
+    .card {
+        width: 100%;
+    }
+
+}
+@media all and (max-width:750px){
+    .hero {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .hero-img {
+        width: 50%;
+        margin: 0 auto;
+        order: -1;
+    }
+    .content {
+        grid-template-columns: 1fr;
+    }
+    .content-img {
+        width: 50%;
+        margin: 0 auto;
+        order: -1;
+    }
+    .content-desc-link {
+        text-align: center;
+    }
+    .get-access-content {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .ga-form {
+        padding:2rem 0rem;
+    }
+    .ga-form button {
+        width: 100%;
+    }
+
+    .footer-content {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .footer-socials {
+        text-align: center;
+    }
+
+}
+@media all and (max-width:450px) {
+    :root {
+        font-size: 14px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .logo {
+        padding: 1rem 0rem;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .footer-logo img {
+        width: 100px;
+    }
+
+}
