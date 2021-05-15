@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+:root {
+    font-size: 16px;
+    --width: 90%;
+    --red: hsl(0, 100%, 68%);
+
+    --very-dark-blue: hsl(230, 29%, 20%);
+    --dark-grayish-blue: hsl(230, 11%, 40%);
+    --grayish-blue: hsl(231, 7%, 65%);
+    --light-grayish-blue: hsl(207, 33%, 95%);
+}
+/* bodyy {
+font-family: 'Barlow', sans-serif;
+} 
+heading {    font-family: 'Barlow Condensed', sans-serif;
+    */
+body {
+    width: 100%;
+    position: relative;
+      overflow-x: hidden;
+}
+body::before{
+  
+    z-index: -2;
+    content: "";
+    position: absolute;
+    width: 50%;
+    height:80%;
+    top: -50px;
+    right: 0px;
+    border-radius: 0px 0px 0px 100px;
+    background-color: var(--light-grayish-blue);
+}
+
+nav {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--width);
+    margin: 3rem auto 0 auto;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    font-size: 1.2rem;
+    font-weight:600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 2rem;
+}
+nav ul li a{
+    color: var(--very-dark-blue);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    opacity: .7;
+}
+nav ul li:last-child  a{
+    color: var(--dark-grayish-blue);
+}
+.mobileLinks {
+    -webkit-box-shadow: 0px 0px 20px 0px #000000; 
+    box-shadow: 0px 0px 20px 0px #000000;
+    z-index: 3;
+
+    position: absolute;
+    top: 150%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 100%;
+    height: fit-content;
+
+    text-align: center;
+    background-color: white;
+    list-style-type: none;
+}
+
+.mobileLinks li {
+/*     text-align: center; */
+
+    display: block;
+    padding: 1rem 0rem;
+}
+.mobileLinks li a {
+    color: var(--very-dark-blue);
+}
+.mobileLinks li:last-child  a{
+    color: var(--dark-grayish-blue);
+}
+.hamburger {
+    display: none; 
+
+}
+.hamburger:hover {
+    cursor: pointer;
+}
+.container {
+    
+    font-family: 'Barlow', sans-serif;
+
+
+    width: var(--width);
+    margin:5rem auto;
+    display: grid;
+
+    grid-template-columns: 1fr 1.5fr;
+}
+.desc {
+    align-self: center;
+}
+ .product {
+    font-family: 'Barlow', sans-serif;
+} 
+.productName {
+
+    color: var(--grayish-blue);
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    padding: 0rem 1rem;
+}
+.new {
+
+    color: white;
+    padding:   .2rem .5rem;
+    border-radius: 10px;
+    background-color: var(--very-dark-blue);
+}
+.productHeading {
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:2.5rem;
+}
+.productPara {
+    padding: 2rem 0rem;
+    color: var(--dark-grayish-blue);
+}
+.imgDiv {
+
+    transform: translateX(30%);
+}
+.imgDiv img{
+     width: 100%; 
+}
+.btn {
+
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: var(--red);
+    color: white;
+    padding: .8rem 3rem;
+    border-radius: 5px;
+}
+.btn:hover {
+    opacity: .7;
+     cursor: pointer;
+}
+.productLink {
+    margin: 1rem 0rem;
+    display: block;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    padding: 0rem .5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--grayish-blue);
+}
+.hide {
+    display: none !important;
+}
+footer {
+    font-size: .8rem;
+    padding: 1rem 0rem;
+    text-align: center;
+}
+ @media all and (max-width:850px) {
+
+     .hamburger {
+         display: block;
+     }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .imgDiv {
+        order: -1;
+        transform: translateX(0%);
+        padding: 2rem 0rem 6rem 0rem;
+    }
+    nav .links {
+        display: none;
+    }
+}
+@media all and (max-width:550px) {
+    :root {
+        font-size: 14px;
+    }
+
+}
