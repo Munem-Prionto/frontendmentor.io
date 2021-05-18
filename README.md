@@ -2,7 +2,7 @@
 
 This repository is a collection of all my solutions I submitted at [frontendmentor.io ](https://www.frontendmentor.io/)
 
-## Newbie
+### Newbie
 
 | Tags  | Challanges | Type|
 | ------------- |:-------------:|  -----:|
@@ -16,7 +16,7 @@ This repository is a collection of all my solutions I submitted at [frontendment
 | HTML--CSS      | [Huddle landing page with a single introductory section]() | Free|
 
 
-## Junior
+### Junior
 
 | Tags  | Challanges | Type|
 | ------------- |:-------------:|  -----:|
