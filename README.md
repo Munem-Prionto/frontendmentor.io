@@ -20,13 +20,13 @@ This repository is a collection of all my solutions I submitted at [frontendment
 
 | Tags  | Challanges | Live|  Code|  Type| 
 | --- | -- |  -- | --  |  -- |
-| HTML--CSS--JS      |  Loopstudios landing page | [Live]() | [Code](https://git.io/Js2lx) |Free|
-| HTML--CSS     | Testimonials grid section  | [Live]() | [Code](https://git.io/Js28J) |Free|
-| HTML--CSS--JS | Social media dashboard with theme switcher  | [Live]() | [Code](https://git.io/Js28k) |Free|
-| HTML--CSS--JS | Project tracking intro component  | [Live]() | [Code](https://git.io/Js28t) |Free|
-| HTML--CSS     | Clipboard landing page| [Live]() | [Code](https://git.io/Js28Y) |Free|
-| HTML--CSS     | Huddle landing page with alternating feature blocks   | [Live]() | [Code](https://git.io/Js28s) |Free|
-| HTML--CSS     | Fylo dark theme landing page| [Live]() | [Code](https://git.io/Js28W) |Free|
-| HTML--CSS     | Fylo landing page with two column layout | [Live]() | [Code](https://git.io/Js28l) |Free|
-| HTML--CSS     | Huddle landing page with curved sections| [Live]() | [Code](https://git.io/Js2BI) |Free|
+| HTML--CSS--JS      |  Loopstudios landing page | [Live](https://loopstudios-landing-page-mp.netlify.app/) | [Code](https://git.io/Js2lx) |Free|
+| HTML--CSS     | Testimonials grid section  | [Live](https://testimonials-grid-section-mp.netlify.app/) | [Code](https://git.io/Js28J) |Free|
+| HTML--CSS--JS | Social media dashboard with theme switcher  | [Live](https://social-media-dashboard-with-theme-switcher-mp.netlify.app/) | [Code](https://git.io/Js28k) |Free|
+| HTML--CSS--JS | Project tracking intro component  | [Live](https://project-tracking-intro-component-mp.netlify.app/) | [Code](https://git.io/Js28t) |Free|
+| HTML--CSS     | Clipboard landing page| [Live](https://clipboard-landing-page-mp.netlify.app/) | [Code](https://git.io/Js28Y) |Free|
+| HTML--CSS     | Huddle landing page with alternating feature blocks   | [Live](https://huddle-landing-page-with-alternating-feature-blocks-mp.netlify.app/) | [Code](https://git.io/Js28s) |Free|
+| HTML--CSS     | Fylo dark theme landing page| [Live](https://fylo-dark-landing-page-mp.netlify.app/) | [Code](https://git.io/Js28W) |Free|
+| HTML--CSS     | Fylo landing page with two column layout | [Live](https://fylo-landing-page-with-two-column-layout-mp.netlify.app/) | [Code](https://git.io/Js28l) |Free|
+| HTML--CSS     | Huddle landing page with curved sections| [Live](https://huddle-landing-page-mp.netlify.app/) | [Code](https://git.io/Js2BI) |Free|
 
