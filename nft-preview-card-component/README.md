@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/https://nft-preview-card-component)
+- [Solution](https://github.com/Munem-Prionto/frontendmentor.io/tree/main/nft-preview-card-component)
 - [Live](https://nft-preview-card-component-mp.netlify.app/)
 
 ### Built with
