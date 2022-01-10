@@ -15,6 +15,7 @@ This repository is a collection of all my solutions I submitted at [frontendment
 | HTML--CSS      | Single price grid component    | [Live](https://single-price-grid-component-mp.netlify.app/) | [Code](https://git.io/Js28j) |Free|
 | HTML--CSS      | Ping single column coming soon page  | [Live](https://ping-coming-soon-page-mp.netlify.app/) | [Code](https://git.io/Js24v) |Free|
 | HTML--CSS      | Huddle landing page with a single introductory section | [Live](https://huddle-landing-page-with-single-introductory-section-mp.netlify.app/) | [Code](https://git.io/Js24J) |Free|
+| HTML--CSS      | NFT preview card componen | [Live](https://nft-preview-card-component-mp.netlify.app/) | [Code](https://git.io/J9cku) |Free
 
 ### Junior
 
