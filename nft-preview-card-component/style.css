@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  --border-radius: 12px;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--main-bg);
+}
+
+.card {
+  background: var(--card-bg);
+  width: 300px;
+  margin: 3rem auto;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+.card-img {
+  margin-bottom: 0.8rem;
+  position: relative;
+}
+
+.card-img-main {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.card-name {
+  font-size: 1.2rem;
+  color: var(--white);
+  padding: 0.5rem 0rem;
+  cursor: pointer;
+}
+.card-name:hover {
+  color: var(--cyan);
+}
+.card-desc {
+  color: var(--soft-blue);
+  padding: 0.5rem 0rem;
+  font-size: 0.9rem;
+}
+
+/* Info */
+
+.info {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--soft-blue);
+}
+.price,
+.time {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.price {
+  color: var(--cyan);
+}
+.time {
+  color: var(--soft-blue);
+}
+.creator {
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--soft-blue);
+}
+.creator img {
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+}
+.creator-name {
+  color: var(--white);
+  cursor: pointer;
+}
+.creator-name:hover {
+  color: var(--cyan);
+}
+footer {
+  color: var(--white);
+  padding: 1rem 0rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+footer a {
+  color: var(--white);
+}
+/* responsvie  */
+@media only screen and (max-width: 310px) {
+  :root {
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+  }
+}
